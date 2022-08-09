@@ -1,0 +1,5 @@
+@import '../typographie/font_size';
+
+@function size($size){
+    @return map-get($font-size, $size)
+}

@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("https://fonts.google.com/specimen/Outfit");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212deg, 45%, 89%);
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("https://fonts.google.com/specimen/Outfit");
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("https://fonts.google.com/specimen/Outfit");
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("https://fonts.google.com/specimen/Outfit");
+}
+.card {
+  width: 320px;
+  height: 500px;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 20px;
+}
+.card .card__image {
+  width: 90%;
+  height: 60%;
+  margin: auto;
+  margin-top: 16px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.card .card__description {
+  margin: 18px 28px;
+}
+.card .card__description .card__description--titre {
+  font-family: "Outfit", sans-serif;
+  padding-bottom: 18px;
+  font-size: 20px;
+  color: hsl(218deg, 44%, 22%);
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.65rem;
+}
+.card .card__description .card__description--paragraphe {
+  font-family: "Outfit", sans-serif;
+  margin-bottom: 20px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 400;
+  color: hsl(220deg, 15%, 55%);
+  line-height: 1.3rem;
+}/*# sourceMappingURL=index.css.map */

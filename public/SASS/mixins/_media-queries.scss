@@ -1,0 +1,13 @@
+@import './breakpoint';
+
+@mixin mobile {
+    @media screen and (min-width: $mobile) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media screen and (min-width: $desktop) {
+        @content;
+    }
+}

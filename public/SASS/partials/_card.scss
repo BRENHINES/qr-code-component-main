@@ -1,0 +1,44 @@
+@import '../variables/variables',
+        '../functions/font-size',
+        '../functions/font-weight';
+
+.card{
+    width: 320px;
+    height: 500px;
+    background-color: $white;
+    border-radius: 20px;
+
+    .card__image{
+        width: 90%;
+        height: 60%;
+        margin: auto;
+        margin-top: 16px;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .card__description{
+        margin: 18px 28px;
+
+        .card__description--titre{
+            font-family: $outfit, $fall-back;
+            padding-bottom: 18px;
+            font-size: size(titre);
+            color: $Dark-blue;
+            font-weight: weight(medium);
+            text-align: center;
+            line-height: 1.65rem;
+        }
+
+        .card__description--paragraphe{
+            font-family: $outfit, $fall-back;
+            margin-bottom: 20px;
+            font-size: size(paragraphe);
+            text-align: center;
+            font-weight: weight(small);
+            color: $Grayish-blue;
+            line-height: 1.30rem;
+        }
+    }
+    
+}
